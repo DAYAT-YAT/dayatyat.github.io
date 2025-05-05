@@ -1,5 +1,6 @@
-url: "https://dayat-yat.github.io"
+url: "https://dayatyat.github.io"
+
 plugins:
     - gem "jekyll-sitemap"
     - gem "jekyll-feed"
-    - gem "jekyll-seo-tag"""
+    - gem "jekyll-seo-tag"
