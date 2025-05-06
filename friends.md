@@ -1,9 +1,9 @@
 ---
 layout: default
-title: friend
+title: Friend
 ---
 
-# friends page
+# friend page
 1. [Abadan Syakira](https://abadan1912.github.io/)
 2. [Desi Nabila Sari](https://desynabilasari.github.io/)
 3. [Deswita Nazwa Ariani](https://deswitanazwa.github.io/)
