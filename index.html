@@ -3,10 +3,49 @@ layout: default
 title: Home
 ---
 
-        <h1>Nama:RAHMAD HIDAYAT</h1>
-    <p>Deskripsi Diri: Saya berasal dari Aceh Utara, sekarang saya mahasiswa di Politeknik Negeri Lhokseumawe,
-        dan jurusan saya TIK dan prodi teknik informatika, dan umur saya sekarang adalah 19 dan hobi saya adalah 
-        GYM.
-    </p>
+<style>
+.profile-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  background: #f2f2f2;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  font-family: sans-serif;
+}
+.profile-container h1 {
+  font-size: 1.5rem;
+  color: #222;
+}
+.profile-container p {
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.6;
+}
+.profile-container button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #ff5252;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+.profile-container button:hover {
+  background-color: #e64545;
+}
+</style>
 
-    <button onclick="myfunction()">jangan di klik ya!</button>
+<div class="profile-container">
+  <h1>Nama: RAHMAD HIDAYAT</h1>
+  <p><strong>Deskripsi Diri:</strong> Saya berasal dari Aceh Utara. Sekarang saya mahasiswa di Politeknik Negeri Lhokseumawe, jurusan TIK dan prodi Teknik Informatika. Umur saya sekarang 19 tahun dan hobi saya adalah GYM.</p>
+  <button onclick="myFunction()">Jangan diklik ya!</button>
+</div>
+
+<script>
+function myFunction() {
+  alert("Dibilang jangan klik 😅");
+}
+</script>
