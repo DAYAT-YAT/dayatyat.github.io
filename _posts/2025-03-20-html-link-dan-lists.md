@@ -2,8 +2,6 @@
 layout: post
 title : "HTML link dan lists"
 ---
-
-
 penjelasan tentang link dan lists pada HTML
 
 HTML link digunakan untuk membuat tautan (hyperlink) yang memungkinkan pengguna berpindah dari satu halaman ke halaman lainnya, baik dalam satu situs maupun ke situs luar. Link juga dapat digunakan untuk membuka file, menjalankan email, atau membuat navigasi di dalam halaman. Elemen utama yang digunakan adalah tag anchor yang berfungsi sebagai penanda tautan.
